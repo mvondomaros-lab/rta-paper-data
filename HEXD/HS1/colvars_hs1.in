@@ -1,0 +1,189 @@
+colvarsTrajFrequency 1
+
+colvar {
+    name O0
+    distanceZ {
+        main { atomNumbers { 12778 12779 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O1
+    distanceZ {
+        main { atomNumbers { 12780 12781 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O2
+    distanceZ {
+        main { atomNumbers { 12782 12783 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O3
+    distanceZ {
+        main { atomNumbers { 12784 12785 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O4
+    distanceZ {
+        main { atomNumbers { 12786 12787 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O5
+    distanceZ {
+        main { atomNumbers { 12788 12789 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O6
+    distanceZ {
+        main { atomNumbers { 12790 12791 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O7
+    distanceZ {
+        main { atomNumbers { 12792 12793 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O8
+    distanceZ {
+        main { atomNumbers { 12794 12795 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+colvar {
+    name O9
+    distanceZ {
+        main { atomNumbers { 12796 12797 } }
+        ref { atomNumbersRange 1-6300 }
+    }
+    lowerBoundary -26.1
+    upperBoundary 26.1
+    width 0.1
+}
+
+harmonicWalls {
+  name mywalls
+  colvars O0 O1 O2 O3 O4 O5 O6 O7 O8 O9 
+  lowerWalls -26.1 -26.1 -26.1 -26.1 -26.1 -26.1 -26.1 -26.1 -26.1 -26.1
+  upperWalls  26.1  26.1  26.1  26.1  26.1  26.1  26.1  26.1  26.1  26.1
+  forceConstant 5.0
+}
+
+abf {
+    name abf.0
+    colvars O0
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.1
+    colvars O1
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.2
+    colvars O2
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.3
+    colvars O3
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.4
+    colvars O4
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.5
+    colvars O5
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.6
+    colvars O6
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.7
+    colvars O7
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.8
+    colvars O8
+    fullSamples 1000
+    updateBias yes
+}
+
+abf {
+    name abf.9
+    colvars O9
+    fullSamples 1000
+    updateBias yes
+}
