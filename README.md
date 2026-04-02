@@ -3,8 +3,8 @@
 Simulation inputs (structures, topologies, and parameters) to reproduce the molecular dynamics simulations reported in:
 
 Rinto Thomas, Praveen Ranganath Prabhakar, and Michael von Domaros,
-**A Residence-Time Approach for Determining Position-Dependent Diffusivities from Biased Molecular Simulations**, arXiv:XXXX.XXXXX (2026).
-https://arxiv.org/abs/XXXX.XXXXX
+**A Residence-Time Approach for Determining Position-Dependent Diffusivities from Biased Molecular Simulations**, arXiv:submit/7435766 (2026).
+https://arxiv.org/submit/7435766
 
 ## Overview
 
@@ -25,4 +25,4 @@ If you use this repository, please cite:
 
 Thomas, R.; Prabhakar, P. R.; von Domaros, M.
 A Residence-Time Approach for Determining Position-Dependent Diffusivities from Biased Molecular Simulations.
-arXiv:XXXX.XXXXX (2026).
+arXiv:submit/7435766 (2026).
